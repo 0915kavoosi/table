@@ -1,0 +1,14 @@
+table{
+    font-style: oblique;
+}
+caption{
+    color:rgb(0, 136, 255);
+    font-size: 20px;
+}
+th{
+    background-color: rgba(22, 185, 139, 0.699);
+    color: rgb(164, 12, 35);
+}
+td{
+    background-color: rgba(13, 167, 54, 0.707);
+}
