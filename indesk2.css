@@ -1,14 +1,37 @@
 table{
-    font-style: oblique;
+    margin: auto;
 }
 caption{
-    color:rgb(0, 136, 255);
+    color:rgb(34, 162, 9);
     font-size: 20px;
+    font-style:inherit;
+    font-weight: bold;
 }
 th{
-    background-color: rgba(22, 185, 139, 0.699);
-    color: rgb(164, 12, 35);
+    background-color: rgb(83, 238, 238);
+    color:rgb(3, 20, 255);
+    font-weight:bold;
+    font-style: oblique;
 }
 td{
-    background-color: rgba(13, 167, 54, 0.707);
+    background-color: rgba(244, 150, 27, 0.582);
+    color:black;
+    font-style:oblique;
+    
+}
+#age-color1{
+    color: rgb(187, 78, 0);
+    font-weight: bolder;
+}
+#age-color2{
+    color: rgb(187, 78, 0);
+    font-weight: bolder;
+}
+#age-color3{
+    color: rgb(187, 78, 0);
+    font-weight: bolder;
+}
+#age-color4{
+    color: rgb(178, 78, 0);
+    font-weight: bolder;
 }
