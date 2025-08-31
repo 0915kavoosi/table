@@ -1,14 +1,87 @@
 table{
+    margin: auto;
+    border-style: solid;
+    border: 1px solid #333;
+    border-radius: 0px;
+    overflow: hidden; 
+    border-style: solid;
+    border-width: 1px 1px;
+    border-collapse: collapse;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    position: relative;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 20px;
+}
+.imgae{
+    border-radius: 30px;
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+th{ 
+    border-bottom: 1px solid #888;
+    padding: 12px;
+    text-align: center;
+    color: rgb(0, 0, 0);
     font-style: oblique;
-}
-caption{
-    color:rgb(0, 136, 255);
-    font-size: 20px;
-}
-th{
-    background-color: rgba(22, 185, 139, 0.699);
-    color: rgb(164, 12, 35);
+    font-weight: bold;
+    background-color: rgba(187, 42, 255, 0.975);/*25, 248, 151, 0.619*/
+    font-style: oblique;
+    color: rgb(5, 37, 83);
 }
 td{
-    background-color: rgba(13, 167, 54, 0.707);
+     border-bottom: 1px solid #888;
+    padding: 12px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-style: oblique;
+    font-weight: bold;
+    background-color: rgba(35, 123, 238, 0.617);/*94, 255, 35, 0.426*/
 }
+
+tr:last-child td{
+    border-bottom: none;
+}
+.part1{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    vertical-align: middle;
+    margin-left: 0em;
+    margin-right: 2em;
+}
+.part2{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    vertical-align: middle;
+    margin-right: 30px;
+}
+.part3{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    vertical-align: middle;
+    margin-right: 30px;
+}
+
+
+#fontmargin{
+    text-align:center;
+}
+
+
+body{       
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHsLMNR26w_a4NR8Vvr8KRpiPCi2xrn_J6DA&s);
+    background-size: cover; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(179, 242, 179);
+    
+    
+    
+}    
