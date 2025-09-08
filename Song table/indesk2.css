@@ -1,5 +1,4 @@
 table{
-    margin: auto;
     border-style: solid;
     border: 1px solid #333;
     border-radius: 0px;
@@ -10,6 +9,7 @@ table{
     padding: 10px;
     box-shadow: 5px -5px 10px rgba(0,0,0,0.5);
     position: relative;
+    margin: 0 auto;
 }
 .container{
     display: flex;
@@ -29,7 +29,7 @@ table{
     border-style:solid;
     direction: rtl;
     line-height: 2;
-    padding: 15px;
+    padding: 15px; 
 }
 .imgae{
     border-radius: 30px;
@@ -90,6 +90,9 @@ body{
     background-repeat: no-repeat;
     /* background-color: rgba(179, 242, 179); */
     background-color: #eee;
+    /* min-width: 120vw; */
+    /* min-height: 100vw; */
+    box-sizing: border-box;
     
 }    
 .pargragh{
@@ -100,4 +103,44 @@ body{
     padding-left: 150px;
     box-sizing: border-box;
 
+}
+
+.captionstayle{
+    font-weight: bolder;
+    /* box-shadow: -10px -5px 10px rgba(0, 0, 0, 0.666); */
+    border: 2px green    solid;
+    height: 8px;
+    /* box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.5); */
+    /* /background-color: rgb(35, 48, 62)   ;  */
+    /* height: 100px; */
+    /* width: 10px; */
+    padding: 40px   ;
+}
+input{
+    padding: 10px;
+    margin: 8px;
+    border-radius: 6px;
+    border: 1px solid #000000;
+    padding-left: 7em;
+    color:rgb(59, 12, 128);
+    margin-top: 2em;
+}
+.input2{
+    margin-left: 4em;
+}
+button{
+    padding: 12px 20px;
+    margin: 8px;
+    background-color: #e73929;
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: -5px 10px 10px rgba(0, 0, 0, 0.666);
+    /* border: 2px white solid; */
+}
+button:hover{
+    background-color: #ff0000;
+    transform: scale(1.05);
+    transition: 0.3s ease;
+    border: 2px white solid;
 }
